@@ -1,0 +1,7 @@
+Function: cs_parameter_estimation
+Type: Function
+Title: Cost-sensitive thresholding over a two-dimensional decision region
+Version: 1.0.0
+Author: Jorge C. Rella
+Description: Cost-sensitive parameter estimation.
+Depends: R (>= 3.2.0)
