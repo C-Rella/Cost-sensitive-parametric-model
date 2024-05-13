@@ -7,7 +7,7 @@ x <- cbind(rep(1, n), rnorm(n), rnorm(n))
 score <-  x %*% theta
 y <- ifelse(1/(1 + exp(-score) ) > runif(n), 1, 0)
 
-w <- rchisq(n, df = 4) * rnorm(n, mean = mu_s, sd = sd_s) * 100
+w <- rchisq(n, df = 4) * rnorm(n, mean = 7, sd = .8) * 100
 
 ### --- Cost specification --- ###
 a_cost <- .1
